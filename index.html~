@@ -46,14 +46,14 @@ Code to Heaven
     <li>
         <a href="#">Programming</a>
         <ul class="sub-menu">
-        		<li> 
-						<a href="https://github.com/python490" >Github</a>        		
-        		</li>
+        	<li> 
+			<a href="https://github.com/python490" >Github</a>        		
+        	</li>
         </ul>
     </li>
 </ul>
 </div>
-<p>So far just been playing around and took a menu system template and edited to how I would like it. Plan to add more pages but for now main focus is on the home page</p>
+<p>So far just been playing around and took a menu system template and edited to how I would like it. Plan to add more pages but for now main focus is on the home page. Need to do much more</p>
 </div>
 </body>
 </html>
