@@ -1,59 +1,62 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="firstStyle.css">
-</head>
-<div class="content">
-<div class="center2">
-<h1>
-Code to Heaven
-</h1>
-</div>
-<body>
-<div class="center">
-<ul id="menu">
-    <li>
-        <a href="#">About</a>
-    </li>
-    <li><a href="#">Anime</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
 
-        <ul class="sub-menu">
-            <li>
-                <a href="#">Reviews</a>
-            </li>
-            <li>
-                <a href="http://myanimelist.net/animelist/python490">MAL List</a>
-            </li>
-           
-            </li>
-        </ul>
-    </li>
-    <li><a href="#">Writing</a>
-			<ul class="sub-menu">
-            <li>
-                <a href="http://codetoheaven.blogspot.com/">Personal Blog</a>
-            </li>
-         </ul>
-    </li>
-    <li><a href="#">Reading</a>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-        <ul class="sub-menu">
-            <li>
-                <a href="#">Book Reviews</a>
-            </li>
-            
-        </ul>
-    </li>
-    <li>
-        <a href="#">Programming</a>
-        <ul class="sub-menu">
-        	<li> 
-			<a href="https://github.com/python490" >Github</a>        		
-        	</li>
-        </ul>
-    </li>
-</ul>
-</div>
-<p>So far just been playing around and took a menu system template and edited to how I would like it. Plan to add more pages but for now main focus is on the home page. Need to do much more</p>
-</div>
-</body>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Welcome to the Site</h1>
+      
+	<nav class="navbar navbar-default" role="navigation" >
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Code to Heaven</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
