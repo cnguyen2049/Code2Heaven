@@ -1,22 +1,24 @@
-<!doctype html>
+
 <html>
 <head>
+<nav id="some-menu"></nav>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <title>My Anime History</title>
 <meta charset="utf-8">
 <meta name ="description" content="Python490 History with Anime">
 <meta name="keywords" content="Python490's Anime History">
 <meta name="author" content="python490">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<?php include('include/nav.php');?>
+
 </head>
 <body class ="reviewpage">
 	<div class="container">
 	<div class ="row">
 		<div class="col-md-6  col-md-offset-3" style="background-color:white; margin-top:3em;">
-					<h1>
-					<img class ="in-text" src="pics/animeH/gundam.jpg" alt="Anime" />
-					</h1>
-					<br>
+			<h1>
+			<img class ="in-text" src="pics/animeH/gundam.jpg" alt="Anime" />
+			</h1>
+			<br>
 			
 			<ul class="nav nav-tabs-animehome" role="tablist" id="tabs">
 			<li class ="active"><a data-toggle="tab" href="#Post">Post</a></li>
@@ -106,4 +108,9 @@
 	</div>
 	</div>
 </body>
+<script>
+$(document).ready(function() {
+    $('#some-menu').load('include/nav.html');
+});
+</script>
 </html>
